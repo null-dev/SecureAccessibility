@@ -2,7 +2,7 @@
 
 <b>Accessibility services or password-on-boot encryption? Pick both!</b>
 
-SecureAccessibility allows you to use accessibility services while still keeping that password-on-boot screen enabled!
+SecureAccessibility allows you to use accessibility services while still keeping the password-on-boot screen enabled!
 
 If your password-on-boot screen is currently disabled, you will have to reactivate it for SecureAccessibility to work.
 
@@ -13,4 +13,10 @@ If you find a bug, please create an issue in the Github issue tracker and post y
 
 <b>NOT TESTED on heavily modified ROMS (Touchwiz, LG, EMUI, etc...)</b>
 
-<u>Accessibility services and password-on-boot do not work together for a reason. By using this Xposed module, you maybe compromising your phone's security.<u>
+<u>Accessibility services and password-on-boot do not work together for a reason. By using this Xposed module, you may be compromising your phone's security.<u>
+
+# Links
+
+Xposed Module Repository: http://repo.xposed.info/module/xyz.nulldev.secureaccess
+
+XDA Thread: http://forum.xda-developers.com/xposed/modules/xposed-statusbarsleep-accessibility-t3498955
