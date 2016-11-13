@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+repositories {
+    jcenter();
+}
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "24.0.3"
+    defaultConfig {
+        versionCode 100
+        versionName "1.00"
+        applicationId "xyz.nulldev.secureaccess"
+        minSdkVersion 9
+        targetSdkVersion 25
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    provided 'de.robv.android.xposed:api:82'
+}
