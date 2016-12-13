@@ -13,8 +13,6 @@ If you find a bug, please create an issue in the Github issue tracker and post y
 
 <b>NOT TESTED on heavily modified ROMS (Touchwiz, LG, EMUI, etc...)</b>
 
-<u>Accessibility services and password-on-boot do not work together for a reason. By using this Xposed module, you may be compromising your phone's security.<u>
-
 # Links
 
 Xposed Module Repository: http://repo.xposed.info/module/xyz.nulldev.secureaccess
